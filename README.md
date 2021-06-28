@@ -5,7 +5,12 @@ Demo project contains trail usage of React Hooks with functional components
  * `useState`
  * `useEffect`
  * `useHistory`
- * `useContent`
+ * `useContext`
+ 
+## Upcoming
+ * `useMemo`
+ * `useCallback`
+ * `useReducer`
 
 ## Additional
  * Understanding Routing with react
