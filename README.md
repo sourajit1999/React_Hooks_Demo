@@ -2,10 +2,10 @@
 Demo project contains trail usage of React Hooks with functional components
 
 ## Hooks Used
- * useState
- * useEffect
- * useHistory
- * useContent
+ * `useState`
+ * `useEffect`
+ * `useHistory`
+ * `useContent`
 
 ## Additional
  * Understanding Routing with react
