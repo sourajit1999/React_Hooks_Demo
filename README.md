@@ -6,7 +6,13 @@ Demo project contains trail usage of React Hooks with functional components
  * `useEffect`
  * `useHistory`
  * `useContext`
- 
+ * `customHooks`
+
+## Router
+ * `Switch`
+ * `Link`
+ * `Route`
+
 ## Upcoming
  * `useMemo`
  * `useCallback`
