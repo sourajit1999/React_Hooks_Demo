@@ -1,28 +1,22 @@
-import { useState, useEffect, useHistory } from 'react';
 import './App.css';
-import {useName} from './hooks/MyHook'
-import Header from './Header'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
 
 function App() {
 
-  const [name, setName] = useName("Ankita")
-
-  // const [name, setName] = useState("Ankita")
-  // // const [user, setUser] = useState({})
-
-  // useEffect(()=> {
-  //   alert("Name Changed")
-  //   setUser()
-  // }, [])
-
   return (
     <div className="App">
-      
-      <Header name={name}/>
-
-      <h1>Hello {name}</h1>
-      <p>Learning react!</p>
-      <button onClick={()=>setName("Sourajit")}>Change name</button>
+      <Router>
+        <Switch>
+          <Route exact path="/about">
+            <About />
+          </Route>
+          <Route exact path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 
